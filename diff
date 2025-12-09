@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>Harmony Park – Home of the Nashville Stars</title>
+<style>
+/* ------------ GLOBAL ------------ */
+body{
+    margin:0;
+    font-family:Arial, Helvetica, sans-serif;
+    background:#111;
+    color:#eee;
+}
+h2{
+    color:#f7d13b;
+    margin-top:0;
+}
+a{
+    text-decoration:none;
+}
+
+/* ------------ HEADER ------------ */
+header{
+    background:#0b0b0b url('') center/cover no-repeat;
+    padding:80px 20px;
+    text-align:center;
+}
+header h1{
+    font-size:50px;
+    color:#f7d13b;
+    margin-bottom:10px;
+}
+header h3{
+    color:#ddd;
+    font-weight:300;
+}
+
+/* ------------ NAV ------------ */
+nav{
+    background:#222;
+    padding:10px 0;
+    text-align:center;
+    position:sticky;
+    top:0;
+}
+nav a{
+    color:#eee;
+    margin:0 15px;
+    font-weight:bold;
+}
+
+/* ------------ SECTIONS ------------ */
+section{
+    padding:50px 60px;
+    border-bottom:1px solid #222;
+}
+
+/* ------------ BUTTON ------------ */
+.btn{
+    background:#f7d13b;
+    padding:10px 15px;
+    border-radius:5px;
+    display:inline-block;
+    color:#000;
+    font-weight:bold;
+    margin-top:15px;
+}
+
+/* ------------ EVENT CARDS ------------ */
+.event{
+    background:#222;
+    padding:15px;
+    border-radius:10px;
+    margin:15px 0;
+}
+
+/* ------------ FOOTER ------------ */
+footer{
+    text-align:center;
+    padding:35px;
+    background:#000;
+    color:#777;
+}
+</style>
+</head>
+
+<body>
+
+<!-- HEADER -->
+<header>
+<h1>Harmony Park</h1>
+<h3>Home of the Nashville Stars</h3>
+</header>
+
+<!-- NAV -->
+<nav>
+<a href="#stadium">Stadium</a>
+<a href="#team">The Nashville Stars</a>
+<a href="#events">Upcoming Events</a>
+<a href="#visit">Visit</a>
+</nav>
+
+
+
+<!-- STADIUM SECTION -->
+<section id="stadium">
+<h2>🏟 Harmony Park Stadium</h2>
+<p>Harmony Park is Major League Baseball’s newest artistic sporting venue, located in the heart of Nashville, Tennessee. Inspired by the city’s legendary music heritage, the ballpark combines modern baseball architecture with performance spaces, live stages, and musical design elements woven throughout the facility.</p>
+
+<ul>
+    <li>Opened: 2026</li>
+    <li>Capacity: 41,000</li>
+    <li>Home Dugout: 1st Base Side</li>
+    <li>Architectural Theme: Nashville music culture</li>
+    <li>Center Field live performance stage</li>
+    <li>Music Row–inspired concourses</li>
+</ul>
+
+<a class="btn" href="#">View Stadium Map</a>
+</section>
+
+
+
+<!-- TEAM SECTION -->
+<section id="team">
+<h2>⭐ The Nashville Stars</h2>
+<p>The Nashville Stars are Major League Baseball’s newest expansion franchise and the first MLB team located in Tennessee. The Stars proudly celebrate Nashville’s historic connection to Negro League baseball and the city’s national reputation as Music City.</p>
+
+<h3>Team Identity</h3>
+<ul>
+    <li>League: MLB – American League</li>
+    <li>Founded: 2025</li>
+    <li>Colors: Midnight Blue, Gold, White</li>
+    <li>Mascot: Rhythm the Star</li>
+</ul>
+
+<a class="btn" href="#">View Roster & Stats</a>
+</section>
+
+
+
+<!-- EVENTS SECTION -->
+<section id="events">
+<h2>🎸 Upcoming Events at Harmony Park</h2>
+
+<div class="event">
+<h3>Opening Day – Stars vs Atlanta Braves</h3>
+<p>April 3rd, 2026</p>
+<p>First MLB game in Music City!</p>
+</div>
+
+<div class="event">
+<h3>Harmony Summer Music Festival</h3>
+<p>June 14–16, 2026</p>
+<p>A full weekend of live performances featuring country, jazz, and Nashville artists.</p>
+</div>
+
+<div class="event">
+<h3>Rooftop Acoustic Showcase</h3>
+<p>July 8th, 2026</p>
+<p>Local musicians perform under the Nashville skyline.</p>
+</div>
+
+<a class="btn" href="#">Full Event Calendar</a>
+</section>
+
+
+
+<!-- VISIT SECTION -->
+<section id="visit">
+<h2>📍 Plan Your Visit</h2>
+<p>Harmony Park is located along the Cumberland River, walking distance from Music Row, Broadway, and Nashville’s central entertainment districts.</p>
+
+<ul>
+    <li>Address: Downtown Nashville, TN</li>
+    <li>Parking: Garage + rideshare drop zones</li>
+    <li>Public Transit: Tennessee Metro Light Rail (Music Row stop)</li>
+</ul>
+
+<a class="btn" href="#">Buy Tickets</a>
+</section>
+
+
+
+<!-- FOOTER -->
+<footer>
+Harmony Park • Nashville, Tennessee — Built for Baseball & Music
+</footer>
+
+</body>
+</html>
